@@ -1,0 +1,43 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+  #calendar {
+    font-family:Arial;
+    font-size:18px;
+  }
+  #calendar caption {
+    text-align:left;
+    padding:5px 10px;
+    background-color:#f6385d;
+    color:#d0bd82;
+    font-weight:bold;
+    font-size:medium;
+  }
+  #calendar caption div:nth-child(1) {float:left;}
+  #calendar caption div:nth-child(2) {float:right;}
+  #calendar caption div:nth-child(2) a {cursor:pointer;}
+  #calendar th {
+    background-color:#ab969d;
+    color:#1d129c;
+    width:40px;
+    font-size:18px;
+  }
+  #calendar td {
+    text-align:center;
+    padding:2px 5px;
+    background-color:#99569e;
+    font-family:"thahoma";
+    font-size:20px;
+    color: #e0f7f7;
+  }
+  #calendar .hoy {
+    background-color:red;
+    color : yellow;
+  }
